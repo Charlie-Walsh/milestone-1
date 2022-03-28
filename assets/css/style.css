@@ -1,15 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kaushan+Script&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/* --------------------Body */
 
-/* --------------------colours */
+body {
+    margin-bottom: 100px;
+    min-height: 600px;
+}
 
+/*---------------------Nav */
 
+.logo {
+    font-family: "Kaushan Script", sans-serif;
+    padding-left: 5px;
+}
 
 /*---------------------Callout */
+
+.heading {
+    font-family: "IM Fell English SC", sans-serif
+}
 
 /*---------------------Quotes */
 
 #quotes {
-
+    display: block;
+    margin: 20px;
 }
 
 /*---------------------Footer */
