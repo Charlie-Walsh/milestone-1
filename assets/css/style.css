@@ -15,6 +15,22 @@ body {
 
 /*---------------------Callout */
 
+.callout {
+    margin: 0 0 0 0;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    padding: 50px;
+    color: #A4ABBD;
+}
+
+#hero-image {
+    background-image: url(../images/ziggy-mirkwood-tyrant-dread.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
 .heading {
     font-family: "IM Fell English SC", sans-serif
 }
