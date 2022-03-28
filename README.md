@@ -30,7 +30,7 @@ This is the main website for the Paint Box subscription service. It is designed 
 
 ### Imagery
 
-* 
+*  My hero image will be there to engage the customer and show what can be possible with what they are paying for. There will also be a gallery of previous customers' minis from beginner and veteran painters.
 
 
 

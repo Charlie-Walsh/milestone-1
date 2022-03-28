@@ -1,1 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=UnifrakturCook:wght@700&display=swap');
+
+/* --------------------colours */
+
+
+
+/*---------------------Callout */
+
+/*---------------------Quotes */
+
+#quotes {
+
+}
+
+/*---------------------Footer */
+
+footer {
+    background-color: #1A4E87;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
