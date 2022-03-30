@@ -33,4 +33,9 @@ This is the main website for the Paint Box subscription service. It is designed 
 *  My hero image will be there to engage the customer and show what can be possible with what they are paying for. There will also be a gallery of previous customers' minis from beginner and veteran painters.
 
 
+## Testing
+
+## Code
+
+* Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This allowed me to style the page in the way I wanted and not be limited to bootstraps default colours.
 

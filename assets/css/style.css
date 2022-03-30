@@ -12,12 +12,23 @@ body {
 }
 
 /*---------------------Nav */
+#nav {
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
 
-.navbar {
+.navbar-custom {
     width: 100%;
     top: 0;
     left: 0;
     margin: 0;
+}
+
+.bg-custom {
+    background-color: #1A4E87;
 }
 
 .logo {
@@ -25,10 +36,22 @@ body {
     padding-left: 5px;
 }
 
+.navbar-custom .navbar-brand{
+    color: #A4ABBD;
+}
+
+.navbar-brand:hover {
+    color: #707788;
+}
+
+.nav-item {
+    color: #A4ABBD;
+}
+
 /*---------------------Callout */
 
 .callout {
-    margin: 0 0 0 0;
+    margin-top: 50px;
     text-align: center;
     height: 600px;
     width: 100%;
