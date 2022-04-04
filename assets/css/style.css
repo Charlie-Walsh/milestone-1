@@ -22,6 +22,7 @@ body {
 .container-fluid {
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 /*---------------------Nav */
@@ -107,10 +108,11 @@ button {
 /*---------------------Quotes */
 
 #quotes {
-    height: 450px;
+    height: 600px;
     width: 100%;
     margin: 0;
     background-color: #A4ABBD;
+    background-size: cover;
 }
 
 #quotes-heading {
