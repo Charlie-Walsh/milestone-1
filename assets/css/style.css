@@ -11,6 +11,10 @@ body {
     min-height: 600px;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 /*---------------------Nav */
 #nav {
     margin: 0;
@@ -53,8 +57,6 @@ body {
 .callout {
     margin-top: 50px;
     text-align: center;
-    height: 600px;
-    width: 100%;
     padding: 50px;
     color: #A4ABBD;
 }
@@ -69,7 +71,21 @@ body {
 }
 
 .heading {
-    font-family: "IM Fell English SC", sans-serif
+    font-family: "IM Fell English SC", sans-serif;
+    margin-top: 75px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #D9A21B;
+    border-color: #D9A21B;
+    margin-top: 100px;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #654000;
+    border-color: #654000;
 }
 
 /*---------------------Quotes */
@@ -77,6 +93,7 @@ body {
 #quotes {
     margin-top: 20px;
     margin-bottom: 100px;
+    background-color: #D9A21B;
 }
 
 /*---------------------Footer */
