@@ -30,7 +30,7 @@ This is the main website for the Paint Box subscription service. It is designed 
 
 ### Imagery
 
-*  My hero image will be there to engage the customer and show what can be possible with what they are paying for. There will also be a gallery of previous customers' minis from beginner and veteran painters.
+*  My hero image will be there to engage the customer and show the miniature hobby entails. There will also be a gallery of previous customers' minis from beginner and veteran painters.
 
 
 ## Testing
@@ -40,6 +40,8 @@ This is the main website for the Paint Box subscription service. It is designed 
 * Had unwanted white bars throughout styling which turned out to be padding on the container-fluid class preset and has since been removed in css.
 
 * Colour pallette wasn't popping as much as I would like in practice. I have kept the blue but have gone with a golden yellow to help important things stand out. The grey wasn't contrasting enough with the hero image so have gone to white to ensure text can be read.
+
+* Nav bar collaspe isn't functioning correctly. The menu will not retract when the button is clicked a second time. However clicking home again resets the button and typically users will navigate away from the home page when using the menu.
 
 ## Code
 
