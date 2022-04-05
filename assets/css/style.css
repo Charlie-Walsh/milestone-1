@@ -62,6 +62,25 @@ body {
     color: #fff;
 }
 
+.nav-item a:hover {
+    color: #bacef3;
+}
+
+.navbar-toggler {
+    color: #D9A21B;
+    background-color: transparent;
+    border: 1px solid #D9A21B
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.nav-icon {
+    font-size: 30px;
+}
 /*---------------------Callout */
 
 .callout {
@@ -89,7 +108,7 @@ body {
     background-position: center;
 }
 
-button {
+#cta-button {
     margin-top: 75px;
 }
 
@@ -163,17 +182,26 @@ footer {
     bottom: 0;
 }
 
+#footer-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+#footer-list li {
+    float: left;
+}
+
 .social-link {
     color: #D9A21B;
     font-size: 35px;
-    list-style-type: none;
     display: inline-block;
+    margin-top: 5px;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
-footer li {
-    text-align: center;
-    display: inline-block;
-    padding: 0 50px;
+.social-link:hover {
+    color: #654000
 }
 
 /*---------------------Media Queries */
@@ -181,7 +209,7 @@ footer li {
 @media screen and (max-width: 480px) {
 
     #quotes {
-        height: 1300px;
+        height: 1350px;
         width: 100%;
         margin: 0 auto;
         background-color: #bacef3;
@@ -198,7 +226,8 @@ footer li {
     }
 
     .social-link {
-        margin-left: 70px;
+        margin-left: 7.5vw;
+        margin-right: 7.5vw;
     }
 
     hr {

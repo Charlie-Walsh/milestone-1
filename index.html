@@ -13,17 +13,26 @@
 <body>
 
 <article class="container-fluid">
+
 <!-----------------------Nav------------------------->
+
 <div class="row" id="nav">
     <div class="col-12">
         <nav class="navbar navbar-custom navbar-expand-sm bg-custom">
             <a href="/" class="navbar-brand logo">Paint Box</a>
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">How it works</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
-            </ul>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars nav-icon"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">How it works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </div>
@@ -35,7 +44,7 @@
         <section class="callout jumbotron text-center">
             <h1 class="heading">Don't know what to paint next? We've got you covered!</h1>
             <p id="callout-text">Randomly selected miniatures delivered to your door every month for just <strong>£35!</strong></p>
-            <button class="btn btn-success btn-lg"><a href="/" ></a>Sign Up!</button>
+            <button class="btn btn-success btn-lg" id="cta-button"><a href="/" ></a>Sign Up!</button>
         </section>
     </div>
 </div>
@@ -80,14 +89,14 @@
 </article>
     
     <footer>
-        <div>
             <ul id="footer-list">
                 <li><a href="https://www.facebook.com" class="social-link" id="facebook" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
                 <li><a href="https://www.twitter.com" class="social-link" id="twitter" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
                 <li><a href="https://www.instagram.com" class="social-link" id="instagram" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
             </ul>
-        </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
