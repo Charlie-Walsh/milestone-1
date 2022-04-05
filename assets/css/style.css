@@ -166,7 +166,14 @@ footer {
 .social-link {
     color: #D9A21B;
     font-size: 35px;
-    margin-left: 100px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer li {
+    text-align: center;
+    display: inline-block;
+    padding: 0 50px;
 }
 
 /*---------------------Media Queries */
