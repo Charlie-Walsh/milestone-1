@@ -35,7 +35,14 @@ This is the main website for the Paint Box subscription service. It is designed 
 
 ## Testing
 
+* Typography - Cormorant proved to be a little too much and have switched to IM Fell English SC instead and Kaushan Script for the company name.
+
+* Had unwanted white bars throughout styling which turned out to be padding on the container-fluid class preset and has since been removed in css.
+
+* Colour pallette wasn't popping as much as I would like in practice. I have kept the blue but have gone with a golden yellow to help important things stand out. The grey wasn't contrasting enough with the hero image so have gone to white to ensure text can be read.
+
 ## Code
 
 * Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This allowed me to style the page in the way I wanted and not be limited to bootstraps default colours.
+
 

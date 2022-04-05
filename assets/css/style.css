@@ -8,7 +8,7 @@
 
 body {
     margin-bottom: 100px;
-    min-height: 600px;
+    height: 100%;
 }
 
 .row {
@@ -22,7 +22,7 @@ body {
 .container-fluid {
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 600px;
 }
 
 /*---------------------Nav */
@@ -108,10 +108,10 @@ button {
 /*---------------------Quotes */
 
 #quotes {
-    height: 100vh;
+    height: 600px;
     width: 100%;
     margin: 0;
-    background-color: #88ACED;
+    background-color: #bacef3;
     background-size: cover;
 }
 
@@ -125,6 +125,7 @@ button {
     margin-top: 15px;
     margin-left: 30px;
     padding: 30px;
+    font-size: 19px;
 }
 
 .right-quote {
@@ -133,6 +134,7 @@ button {
     margin-top: 15px;
     margin-right: 30px;
     padding: 30px;
+    font-size: 19px;
 }
 
 .quote-spacing {
@@ -164,7 +166,35 @@ footer {
 .social-link {
     color: #D9A21B;
     font-size: 35px;
-    margin-left: 50px;
-    right: 0;
-    bottom: 50%;
+    margin-left: 100px;
+}
+
+/*---------------------Media Queries */
+
+@media screen and (max-width: 480px) {
+
+    #quotes {
+        height: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #bacef3;
+        background-size: cover;
+    }
+    
+    .left-quote, .right-quote {
+        margin-left: 50px;
+        width: 75%;
+        float: left;
+        padding: 30px, 0;
+        display: block;
+        text-align: center;
+    }
+
+    .social-link {
+        margin-left: 70px;
+    }
+
+    hr {
+        display: none;
+    }
 }
