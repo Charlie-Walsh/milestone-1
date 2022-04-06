@@ -214,6 +214,42 @@ body {
     border-radius: 50px;
 }
 
+/*---------------------WH40k */
+
+#fortyk {
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    background-color: #bacef3;
+}
+
+#fortyk h1 {
+    padding-top: 30px;
+}
+
+.faction-block {
+    width: 50%;
+    background-color: #D9A21B;
+    border-radius: 50px;
+    padding: 20px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.faction-list {
+    list-style: none;
+}
+
+.faction-list li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 40px 10px 40px;
+}
+
+/*---------------------Age of Sigmar */
+
+
+
 /*---------------------Footer */
 
 footer {
