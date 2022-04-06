@@ -28,6 +28,7 @@ body {
     padding: 0;
     margin: 0;
     height: 600px;
+    width: 100%;
 }
 
 /*---------------------Nav */
@@ -145,6 +146,7 @@ body {
     padding: 30px;
     font-size: 16px;
     background-color: #D9A21B;
+    border-radius: 50px;
 }
 
 .right-quote {
@@ -155,6 +157,7 @@ body {
     padding: 30px;
     font-size: 16px;
     background-color: #D9A21B;
+    border-radius: 50px;
 }
 
 .quote-spacing {
@@ -173,14 +176,18 @@ body {
 /*---------------------How It Works */
 
 #how-it-works {
+    background-image: url(../images/hero-image.jpg);
     height: 600px;
     width: 100%;
-    background-color: #bacef3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-top: 56px;
 }
 
 #how-it-works h1 {
     padding-top: 30px;
+    color: #fff;
 }
 
 #hiw-paint-time {
@@ -189,21 +196,22 @@ body {
 }
 
 .about {
-    width: 25%;
-    float: left;
+    width: 600px;
     padding: 20px;
-    margin: 75px;
+    margin-left: 17vw;
+    margin-bottom: 5px;
     background-color: #D9A21B;
-    
+    border-radius: 50px;
+    display: block;
 }
 
 #hiw-list {
-    width: 25%;
+    width: 500px;
     float: right;
+    margin-right: 19vw;
     padding: 20px;
-    margin-top: 150px;
-    margin-right: 75px;
     background-color: #D9A21B;
+    border-radius: 50px;
 }
 
 /*---------------------Footer */
@@ -243,7 +251,7 @@ footer {
 
 /*---------------------Media Queries */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
     .callout {
         margin-top: 25px;
@@ -251,7 +259,7 @@ footer {
     }
 
     #quotes {
-        height: 950px;
+        height: 1000px;
     }
     
     .left-quote, .right-quote {
