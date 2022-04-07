@@ -130,7 +130,7 @@ body {
 #quotes {
     height: 600px;
     width: 100%;
-    margin: 0;
+    margin-bottom: 56px;
     background-color: #bacef3;
 }
 
@@ -192,16 +192,15 @@ body {
 
 #hiw-paint-time {
     margin: 30px 0;
-
+    color: #fff;
 }
 
 .about {
-    width: 600px;
+    width: 30%;
     padding: 20px;
     margin-left: 17vw;
     margin-bottom: 5px;
-    background-color: #D9A21B;
-    border-radius: 50px;
+    color: #fff;
     display: block;
 }
 
@@ -210,17 +209,17 @@ body {
     float: right;
     margin-right: 19vw;
     padding: 20px;
-    background-color: #D9A21B;
-    border-radius: 50px;
+    color: #fff;
 }
 
 /*---------------------WH40k */
 
 #fortyk {
-    height: 600px;
+    height: 800px;
     width: 100%;
     margin: 0;
     background-color: #bacef3;
+    padding-bottom: 56px;
 }
 
 #fortyk h1 {
@@ -244,11 +243,36 @@ body {
     display: inline-block;
     text-align: center;
     margin: 10px 40px 10px 40px;
+    padding: 5px;
 }
 
 /*---------------------Age of Sigmar */
 
+#aos {
+    padding-bottom: 56px;
+}
 
+#faction-block-right {
+    width: 40%;
+    float: right;
+    margin-right: 75px;
+}
+
+/*---------------------Gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    background-color: #bacef3;
+    padding-bottom: 56px;
+    padding-top: 56px;
+}
+
+#photos img {
+    width: 100%;
+}
 
 /*---------------------Footer */
 
@@ -258,9 +282,10 @@ footer {
     width: 100%;
     margin: 0;
     padding: 0;
-    position: fixed;
     left: 0;
     bottom: 0;
+    position: fixed;
+    clear: both;
 }
 
 #footer-list {
@@ -287,7 +312,9 @@ footer {
 
 /*---------------------Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+
+/*---------------------Landing Page */
 
     .callout {
         margin-top: 25px;
@@ -295,7 +322,7 @@ footer {
     }
 
     #quotes {
-        height: 1000px;
+        height: 1070px;
     }
     
     .left-quote, .right-quote {
@@ -315,5 +342,63 @@ footer {
 
     hr {
         display: none;
+    }
+
+/*---------------------How it Works */
+
+    .about {
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: smaller;
+        text-align: center;
+        display: block;
+    }
+
+    #hiw-list {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        color: #fff;
+        font-size: smaller;
+        background-color: rgba(217, 162, 27, 0.5);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .callout {
+        margin-top: 25px;
+        padding: 50px;
+    }
+
+    #quotes {
+        height: 1000px;
+        margin-bottom: 56px;
+    }
+    
+    .left-quote, .right-quote {
+        margin-left: 50px;
+        width: 75%;
+        float: left;
+        padding: 30px, 0;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .social-link {
+        margin-left: 7.5vw;
+        margin-right: 7.5vw;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #photos {
+        column-count: 2;
     }
 }
