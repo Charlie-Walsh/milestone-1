@@ -283,23 +283,40 @@ body {
     padding-bottom: 75px;
 }
 
-form h3 {
-    margin: 30px;
+.form-heading {
+    margin: 45px;
+}
+
+.form-heading-two {
+    margin: 45px;
 }
 
 .personal-details {
-    height: 200px;
+    height: 100px;
+    width: 40%;
 }
 
 .password {
     height: 100px;
-    width: 300px;
+    width: 30%;
     margin: 45px;
 }
 
 .details {
     width: 200px;
     display: inline;
+}
+
+.universe-selection {
+    margin: 20px;
+}
+
+.faction-selection {
+    width: 200px;
+}
+
+.form-submit {
+    margin: 45px;
 }
 
 /*---------------------Footer */
