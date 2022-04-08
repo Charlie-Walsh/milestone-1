@@ -32,6 +32,11 @@ This is the main website for the Paint Box subscription service. It is designed 
 
 *  My hero image will be there to engage the customer and show the miniature hobby entails. There will also be a gallery of previous customers' minis from beginner and veteran painters.
 
+* Gallery images were kindly given permission to be used by members of a Facebook group I belong to called 40k for Grown Ups. I explained what they would be used for and those people willing to help added their images to the post.
+
+## Code
+
+* Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This allowed me to style the page in the way I wanted and not be limited to bootstraps default colours.
 
 ## Testing
 
@@ -45,9 +50,8 @@ This is the main website for the Paint Box subscription service. It is designed 
 
 * I have been testing frquently in port 8000 and using Google's developer tools to gauage responsiveness over mobile, tablet and desktop sizes.
 
-## Code
+* Links were tested after deployment. One was linked to the wrong html file. That has been ammended and now links to the correct file.
 
-* Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This allowed me to style the page in the way I wanted and not be limited to bootstraps default colours.
 
 ## Bugs
 
