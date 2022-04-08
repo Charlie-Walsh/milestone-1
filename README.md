@@ -52,6 +52,8 @@ This is the main website for the Paint Box subscription service. It is designed 
 
 * Links were tested after deployment. One was linked to the wrong html file. That has been ammended and now links to the correct file.
 
+* All code has been validated in the respective W3C validators.
+
 
 ## Bugs
 
