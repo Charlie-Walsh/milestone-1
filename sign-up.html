@@ -40,7 +40,7 @@
 <!-----------------------Sign up Form------------------------->
 <div class="row">
     <div class="col-12">
-        <section id="details">
+        <section id="sign-up-form">
             <div>
                 <h1 class="heading">Sign Up</h1>
             </div>
@@ -48,39 +48,122 @@
                 <form action="#" method="post" id="personal-details" class="form-style">
                     <h3 class="sub-heading">Your details</h3>
                     <div class="row">
-                        <div class="col g-5">
+                        <div class="col g-5 details">
                             <label for="name" class="form-label">Name:</label>
                             <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                         </div>
-                        <div class="col g-5">
+                        <div class="col g-5 details">
                             <label for="email" class="form-label">Email:</label>
                             <input type="email" class="form-control" id="email" placeholder="youremail@somewhere.com" required>
                       </div>
                     </div>
                     <div class="row">
-                        <div class="col-6"></div>
-                            <div class="mb-3 g-5">
+                        <div class="col-6 details"></div>
                             <label for="password" class="form-label">Password:</label>
                             <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3 class="sub-heading">Universe Selection</h3>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check universe-selection">
+                                <input class="form-check-input" type="radio" name="universe" value="warhammer-40k" id="wh40k">
+                                <label class="form-check-label" for="40k">Warhammer: 40,000</label>
+                            </div>
+                            <div class="form-check universe-selection">
+                                <input class="form-check-input" type="radio" name="universe" value="age-of-sigmar" id="whaos">
+                                <label class="form-check-label" for="40k">Warhammer: Age of Sigmar</label>
+                            </div>
+                            <div class="form-check universe-selection">
+                                <input class="form-check-input" type="radio" name="universe" value="both" id="both">
+                                <label class="form-check-label" for="40k">Both</label>
                             </div>
                         </div>
                     </div>
                     <hr>
-                    <h3>Universe Selection</h3>
+                    <h3 class="sub-heading">Faction Selection</h3>
+                    <h5 class="sub-heading">Warhammer: 40,000 (Choose atleast 4 factions)</h5>
                     <div class="row">
-                        <div class="col">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="wh40k">
-                                <label class="form-check-label" for="40k">Warhammer: 40,000</label>
+                        <div class="col-3">
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="astartes" id="astartes">
+                                <label class="form-check-label" for="astartes">Adeptus Astartes</label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="whaos">
-                                <label class="form-check-label" for="40k">Warhammer: Age of Sigmar</label>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="imp-gaurd" id="imp-gaurd">
+                                <label class="form-check-label" for="imp-gaurd">Astra Militarum</label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="both">
-                                <label class="form-check-label" for="40k">Both</label>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="admech" id="admech">
+                                <label class="form-check-label" for="admech">Adeptus Mechanicus</label>
                             </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="sororitas" id="sororitas">
+                                <label class="form-check-label" for="sororitas">Adepta Sororitas</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="custodes" id="custodes">
+                                <label class="form-check-label" for="custodes">Adeptus Custodes</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="chaos-sm" id="chaos-sm">
+                                <label class="form-check-label" for="chaos-sm">Chaos Space Marines</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="daemons" id="daemons">
+                                <label class="form-check-label" for="daemons">Daemons of Chaos</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="aeldari" id="aeldari">
+                                <label class="form-check-label" for="aeldari">Aeldari</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="drukhari" id="drukhari">
+                                <label class="form-check-label" for="drukhari">Drukhari</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="orks" id="orks">
+                                <label class="form-check-label" for="orks">Orks</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="necron" id="necron">
+                                <label class="form-check-label" for="necron">Necron</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="tau" id="tau">
+                                <label class="form-check-label" for="tau">T'au Empire</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="gs-cults" id="gs-cults">
+                                <label class="form-check-label" for="gs-cults">Genestealer Cults</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="nids" id="nids">
+                                <label class="form-check-label" for="nids">Tyranids</label>
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Age of Sigmar</h5>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="order" id="order">
+                                <label class="form-check-label" for="order">Grand Alliance: Order</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="chaos" id="chaos">
+                                <label class="form-check-label" for="chaos">Grand Alliance: Chaos</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="death" id="death">
+                                <label class="form-check-label" for="death">Grand Alliance: Death</label>
+                            </div>
+                            <div class="form-check faction-selection">
+                                <input class="form-check-input" type="checkbox" name="faction" value="destruction" id="destruction">
+                                <label class="form-check-label" for="destruction">Grand Alliance: Destruction</label>
+                            </div>
+
                         </div>
                     </div>
                 </form>
