@@ -276,8 +276,30 @@ body {
 
 /*---------------------Sign Up */
 
-#details {
+#sign-up-form {
+    height: 100%;
     padding-top: 75px;
+    background-color: #bacef3;
+    padding-bottom: 75px;
+}
+
+form h3 {
+    margin: 30px;
+}
+
+.personal-details {
+    height: 200px;
+}
+
+.password {
+    height: 100px;
+    width: 300px;
+    margin: 45px;
+}
+
+.details {
+    width: 200px;
+    display: inline;
 }
 
 /*---------------------Footer */
