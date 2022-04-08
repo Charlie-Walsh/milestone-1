@@ -43,8 +43,16 @@ This is the main website for the Paint Box subscription service. It is designed 
 
 * Nav bar collaspe isn't functioning correctly. The menu will not retract when the button is clicked a second time. However clicking home again resets the button and typically users will navigate away from the home page when using the menu.
 
+* I have been testing frquently in port 8000 and using Google's developer tools to gauage responsiveness over mobile, tablet and desktop sizes.
+
 ## Code
 
 * Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This allowed me to style the page in the way I wanted and not be limited to bootstraps default colours.
+
+## Bugs
+
+* The main bug i have identified is the menu icon not retracting when clicked again to close.
+
+
 
 
