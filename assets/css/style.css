@@ -146,7 +146,7 @@ body {
     padding: 30px;
     font-size: 16px;
     background-color: #D9A21B;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .right-quote {
@@ -157,7 +157,7 @@ body {
     padding: 30px;
     font-size: 16px;
     background-color: #D9A21B;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .quote-spacing {
@@ -229,7 +229,7 @@ body {
 .faction-block {
     width: 50%;
     background-color: #D9A21B;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 20px;
     margin-left: 75px;
     margin-top: 30px;
@@ -272,6 +272,20 @@ body {
 
 #photos img {
     width: 100%;
+}
+
+/*---------------------Sign Up */
+
+#personal-details {
+    padding-top: 75px;
+}
+
+.form-style {
+    margin: 30px;
+    padding: 20px;
+    background-color: #D9A21B;
+    border-radius: 20px;
+
 }
 
 /*---------------------Footer */
