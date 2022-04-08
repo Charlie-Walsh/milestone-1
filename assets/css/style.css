@@ -276,16 +276,8 @@ body {
 
 /*---------------------Sign Up */
 
-#personal-details {
+#details {
     padding-top: 75px;
-}
-
-.form-style {
-    margin: 30px;
-    padding: 20px;
-    background-color: #D9A21B;
-    border-radius: 20px;
-
 }
 
 /*---------------------Footer */
