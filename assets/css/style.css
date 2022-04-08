@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kaushan+Script&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-/* --------------------General */
+/* --General */
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ body {
     width: 100%;
 }
 
-/*---------------------Nav */
+/*--Nav */
 #nav {
     margin: 0;
     left: 0;
@@ -87,7 +87,7 @@ body {
 .nav-icon {
     font-size: 30px;
 }
-/*---------------------Callout */
+/*--Callout */
 
 .callout {
     margin-top: 50px;
@@ -125,7 +125,7 @@ body {
     border-color: #654000;
 }
 
-/*---------------------Quotes */
+/*--Quotes */
 
 #quotes {
     height: 600px;
@@ -173,7 +173,7 @@ body {
     color: #654000;
 }
 
-/*---------------------How It Works */
+/*--How It Works */
 
 #how-it-works {
     background-image: url(../images/hero-image.jpg);
@@ -212,7 +212,7 @@ body {
     color: #fff;
 }
 
-/*---------------------WH40k */
+/*--WH40k */
 
 #fortyk {
     height: 800px;
@@ -246,7 +246,7 @@ body {
     padding: 5px;
 }
 
-/*---------------------Age of Sigmar */
+/*--Age of Sigmar */
 
 #aos {
     padding-bottom: 56px;
@@ -258,7 +258,7 @@ body {
     margin-right: 75px;
 }
 
-/*---------------------Gallery */
+/*--Gallery */
 
 #photos {
     clear: both;
@@ -274,7 +274,7 @@ body {
     width: 100%;
 }
 
-/*---------------------Sign Up */
+/*--Sign Up */
 
 #sign-up-form {
     height: 100%;
@@ -319,7 +319,7 @@ body {
     margin: 45px;
 }
 
-/*---------------------Footer */
+/*--Footer */
 
 footer {
     background-color: #1A4E87;
@@ -355,11 +355,11 @@ footer {
     color: #654000
 }
 
-/*---------------------Media Queries */
+/*--Media Queries */
 
 @media screen and (max-width: 480px) {
 
-/*---------------------Landing Page */
+/*--Landing Page */
 
     .callout {
         margin-top: 25px;
@@ -374,7 +374,7 @@ footer {
         margin-left: 50px;
         width: 75%;
         float: left;
-        padding: 30px, 0;
+        padding: 30px 0;
         display: block;
         text-align: center;
         font-size: 16px;
@@ -389,7 +389,7 @@ footer {
         display: none;
     }
 
-/*---------------------How it Works */
+/*--How it Works */
 
     .about {
         width: 90%;
@@ -410,9 +410,77 @@ footer {
         background-color: rgba(217, 162, 27, 0.5);
     }
 
+/*--WH40k */
+
+    #fortyk {
+        height: 1000px;
+    }
+
+    .faction-block {
+        width: 90%;
+        background-color: #D9A21B;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    .faction-block h3{
+        text-align: center;
+    }
+
+    .faction-list li {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+
+    /*--Age of Sigmar */
+
+    #aos {
+        padding-top: 30px;
+        padding-bottom: 56px;
+    }
+
+    #faction-block-right {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+
+    }
+
+/*--Sign Up */
+
+    .form-heading {
+        text-align: center;
+        background-color: #D9A21B;
+        border: 2px solid #D9A21B;
+        border-radius: 20px;
+    }
+
+    .form-heading-two {
+        text-align: center;
+    }
+
+    .personal-details {
+        width: 70%;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .personal-details input {
+        margin-left: 45px
+    }
+
+    .password {
+        width: 70%;
+    }
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 899px) and (min-width: 481px){
+
+/*--Landing Page--*/
 
     .callout {
         margin-top: 25px;
@@ -428,7 +496,7 @@ footer {
         margin-left: 50px;
         width: 75%;
         float: left;
-        padding: 30px, 0;
+        padding: 30px 0;
         display: block;
         text-align: center;
         font-size: 16px;
@@ -446,4 +514,86 @@ footer {
     #photos {
         column-count: 2;
     }
+
+    /*--How it Works */
+
+    .about {
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: smaller;
+        text-align: center;
+        display: block;
+    }
+
+    #hiw-list {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        color: #fff;
+        font-size: smaller;
+    }
+
+    /*--WH40k */
+
+    #fortyk {
+        height: 1000px;
+    }
+
+    .faction-block {
+        width: 90%;
+        background-color: #D9A21B;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    .faction-block h3{
+        text-align: center;
+    }
+
+    .faction-list li {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+
+    /*--Age of Sigmar */
+
+    #aos {
+        padding-top: 30px;
+        padding-bottom: 56px;
+    }
+
+    #faction-block-right {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    /*--Sign Up */
+
+    .form-heading {
+        text-align: center;
+        }
+    
+    .personal-details {
+        width: 80%;
+        display: block;
+        padding-bottom: 10px;
+        }
+    
+    .personal-details input {
+            margin-left: 45px
+        }
+    
+    .password {
+            width: 80%;
+        }
+        
+    .form-label {
+            margin-left: 45px;
+        }
 }
