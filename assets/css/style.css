@@ -199,22 +199,22 @@ body {
 .about {
   width: 50%;
   padding: 20px;
-  margin-left: 17vw;
-  margin-bottom: 5px;
+  margin-left: 10vw;
+  margin-bottom: 20px;
   color: #fff;
   display: block;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 #hiw-list {
-  width: 500px;
+  width: 35%;
   float: right;
-  margin-right: 19vw;
+  margin-right: 10vw;
   padding: 20px;
   color: #fff;
 }
 
-/*--WH40k */
+/*--Factions */
 
 #fortyk {
   height: auto;
@@ -224,17 +224,17 @@ body {
   padding-bottom: 56px;
 }
 
-#fortyk h1 {
+#fortyk h2 {
   padding-top: 30px;
 }
 
 .faction-block {
-  width: 50%;
+  width: 80%;
   background-color: #d9a21b;
   border-radius: 20px;
   padding: 20px;
-  margin-left: 75px;
-  margin-top: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .faction-list {
@@ -243,25 +243,10 @@ body {
 
 .faction-list li {
   display: inline-block;
-  text-align: center;
+  text-align: justify;
   margin: 10px 40px 10px 40px;
   padding: 5px;
-}
-
-/*--Age of Sigmar */
-
-#aos {
-  height: auto;
-  width: 100%;
-  margin: 0;
-  background-color: #bacef3;
-  padding-bottom: 56px;
-}
-
-#faction-block-right {
-  width: 40%;
-  float: right;
-  margin-right: 75px;
+  width: auto;
 }
 
 /*--Gallery */
@@ -409,6 +394,7 @@ footer {
     width: 90%;
     padding: 20px;
     margin: 0 auto;
+    margin-top: 10px;
     color: #fff;
     font-size: smaller;
     text-align: center;
@@ -417,18 +403,13 @@ footer {
 
   #hiw-list {
     width: 90%;
+    float: none;
     margin: 0 auto;
     padding: 20px;
     color: #fff;
-    font-size: smaller;
-    background-color: rgba(217, 162, 27, 0.5);
   }
 
-  /*--WH40k */
-
-  #fortyk {
-    height: 1000px;
-  }
+  /*--Factions */
 
   .faction-block {
     width: 90%;
@@ -436,6 +417,7 @@ footer {
     border-radius: 20px;
     padding: 20px;
     margin: 0 auto;
+    margin-top: 20px;
     font-size: smaller;
   }
 
@@ -447,19 +429,6 @@ footer {
     display: block;
     text-align: center;
     padding: 0px;
-  }
-
-  /*--Age of Sigmar */
-
-  #aos {
-    padding-top: 30px;
-    padding-bottom: 56px;
-  }
-
-  #faction-block-right {
-    width: 90%;
-    float: none;
-    margin: 0 auto;
   }
 
   /*--Sign Up */
