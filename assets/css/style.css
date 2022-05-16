@@ -1,599 +1,597 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kaushan+Script&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kaushan+Script&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 /* --General */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-    margin-bottom: 100px;
-    height: 100%;
+  margin-bottom: 100px;
+  height: 100%;
 }
 
 .row {
-    --bs-gutter-x: 0;
+  --bs-gutter-x: 0;
 }
 
 .text {
-    font-family: "Proza Libre", sans-serif;
+  font-family: "Proza Libre", sans-serif;
 }
 
 .heading {
-    font-family: "IM Fell English SC", sans-serif;
-    text-align: center;
+  font-family: "IM Fell English SC", sans-serif;
+  text-align: center;
 }
 
 .container-fluid {
-    padding: 0;
-    margin: 0;
-    height: 600px;
-    width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  width: 100%;
 }
 
 /*--Nav */
 #nav {
-    margin: 0;
-    left: 0;
-    top: 0;
-    position: fixed;
-    width: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar-custom {
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
 }
 
 .bg-custom {
-    background-color: #1A4E87;
+  background-color: #1a4e87;
 }
 
 .logo {
-    font-family: "Kaushan Script", sans-serif;
-    padding-left: 5px;
+  font-family: "Kaushan Script", sans-serif;
+  padding-left: 5px;
 }
 
-.navbar-custom .navbar-brand{
-    color: #D9A21B;
+.navbar-custom .navbar-brand {
+  color: #d9a21b;
 }
 
 .navbar-brand:hover {
-    color: #654000;
+  color: #654000;
 }
 
 .nav-item a {
-    color: #fff;
+  color: #fff;
 }
 
 .nav-item a:hover {
-    color: #bacef3;
+  color: #bacef3;
 }
 
 .navbar-toggler {
-    color: #D9A21B;
-    background-color: transparent;
-    border: 1px solid #D9A21B
+  color: #d9a21b;
+  background-color: transparent;
+  border: 1px solid #d9a21b;
 }
 
 .navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
 }
 
 .nav-icon {
-    font-size: 30px;
+  font-size: 30px;
 }
 /*--Callout */
 
 .callout {
-    margin-top: 50px;
-    padding: 100px;
-    color: #ffffff;
+  margin-top: 50px;
+  padding: 100px;
+  color: #ffffff;
 }
 
 #callout-text {
-    font-family: "Proza Libre", sans-serif;
-    text-align: center;
+  font-family: "Proza Libre", sans-serif;
+  text-align: center;
 }
 
 .jumbotron {
-    background-image: url(../images/hero-image.jpg);
-    height: 600px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url(../images/hero-image.jpg);
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #cta-button {
-    margin-top: 75px;
+  margin-top: 75px;
 }
 
 .btn-success {
-    color: #fff;
-    background-color: #D9A21B;
-    border-color: #D9A21B;
+  color: #fff;
+  background-color: #d9a21b;
+  border-color: #d9a21b;
 }
 
 .btn-success:hover {
-    color: #fff;
-    background-color: #654000;
-    border-color: #654000;
+  color: #fff;
+  background-color: #654000;
+  border-color: #654000;
 }
 
 /*--Quotes */
 
 #quotes {
-    height: 600px;
-    width: 100%;
-    margin-bottom: 56px;
-    background-color: #bacef3;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 56px;
+  background-color: #bacef3;
 }
 
 #quotes-heading {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .left-quote {
-    float: left;
-    width: 33%;
-    margin-top: 15px;
-    margin-left: 30px;
-    padding: 30px;
-    font-size: 16px;
-    background-color: #D9A21B;
-    border-radius: 20px;
+  float: left;
+  width: 33%;
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 30px;
+  font-size: 16px;
+  background-color: #d9a21b;
+  border-radius: 20px;
 }
 
 .right-quote {
-    float: right;
-    width: 33%;
-    margin-top: 15px;
-    margin-right: 30px;
-    padding: 30px;
-    font-size: 16px;
-    background-color: #D9A21B;
-    border-radius: 20px;
+  float: right;
+  width: 33%;
+  margin-top: 15px;
+  margin-right: 30px;
+  padding: 30px;
+  font-size: 16px;
+  background-color: #d9a21b;
+  border-radius: 20px;
 }
 
 .quote-spacing {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .left-quote i {
-    color: #654000;
+  color: #654000;
 }
 
 .right-quote i {
-    color: #654000;
+  color: #654000;
 }
 
 /*--How It Works */
 
 #how-it-works {
-    background-image: url(../images/hero-image.jpg);
-    height: 600px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 56px;
+  background-image: url(../images/hero-image.jpg);
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 56px;
 }
 
 #how-it-works h1 {
-    padding-top: 30px;
-    color: #fff;
+  padding-top: 30px;
+  color: #fff;
 }
 
 #hiw-paint-time {
-    margin: 30px 0;
-    color: #fff;
+  margin: 30px 0;
+  color: #fff;
 }
 
 .about {
-    width: 30%;
-    padding: 20px;
-    margin-left: 17vw;
-    margin-bottom: 5px;
-    color: #fff;
-    display: block;
+  width: 30%;
+  padding: 20px;
+  margin-left: 17vw;
+  margin-bottom: 5px;
+  color: #fff;
+  display: block;
 }
 
 #hiw-list {
-    width: 500px;
-    float: right;
-    margin-right: 19vw;
-    padding: 20px;
-    color: #fff;
+  width: 500px;
+  float: right;
+  margin-right: 19vw;
+  padding: 20px;
+  color: #fff;
 }
 
 /*--WH40k */
 
 #fortyk {
-    height: 800px;
-    width: 100%;
-    margin: 0;
-    background-color: #bacef3;
-    padding-bottom: 56px;
+  height: 800px;
+  width: 100%;
+  margin: 0;
+  background-color: #bacef3;
+  padding-bottom: 56px;
 }
 
 #fortyk h1 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .faction-block {
-    width: 50%;
-    background-color: #D9A21B;
-    border-radius: 20px;
-    padding: 20px;
-    margin-left: 75px;
-    margin-top: 30px;
+  width: 50%;
+  background-color: #d9a21b;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 75px;
+  margin-top: 30px;
 }
 
 .faction-list {
-    list-style: none;
+  list-style: none;
 }
 
 .faction-list li {
-    display: inline-block;
-    text-align: center;
-    margin: 10px 40px 10px 40px;
-    padding: 5px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 40px 10px 40px;
+  padding: 5px;
 }
 
 /*--Age of Sigmar */
 
 #aos {
-    padding-bottom: 56px;
+  padding-bottom: 56px;
 }
 
 #faction-block-right {
-    width: 40%;
-    float: right;
-    margin-right: 75px;
+  width: 40%;
+  float: right;
+  margin-right: 75px;
 }
 
 /*--Gallery */
 
 #photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    background-color: #bacef3;
-    padding-bottom: 56px;
-    padding-top: 56px;
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+  background-color: #bacef3;
+  padding-bottom: 56px;
+  padding-top: 56px;
 }
 
 #photos img {
-    width: 100%;
+  width: 100%;
 }
 
 /*--Sign Up */
 
 #sign-up-form {
-    height: 100%;
-    padding-top: 75px;
-    background-color: #bacef3;
-    padding-bottom: 75px;
+  height: 100%;
+  padding-top: 75px;
+  background-color: #bacef3;
+  padding-bottom: 75px;
 }
 
 .form-heading {
-    margin: 45px;
+  margin: 45px;
 }
 
 .form-heading-two {
-    margin: 45px;
+  margin: 45px;
 }
 
 .personal-details {
-    height: 100px;
-    width: 40%;
+  height: 100px;
+  width: 40%;
 }
 
 .password {
-    height: 100px;
-    width: 30%;
-    margin: 45px;
+  height: 100px;
+  width: 30%;
+  margin: 45px;
 }
 
 .details {
-    width: 200px;
-    display: inline;
+  width: 200px;
+  display: inline;
 }
 
 .universe-selection {
-    margin: 20px;
+  margin: 20px;
 }
 
 .faction-selection {
-    width: 200px;
+  width: 200px;
 }
 
 .form-submit {
-    margin: 45px;
+  margin: 45px;
 }
 
 /*--Footer */
 
 footer {
-    background-color: #1A4E87;
-    height: 50px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    clear: both;
+  background-color: #1a4e87;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  clear: both;
 }
 
 #footer-list {
-    text-align: center;
-    list-style-type: none;
+  text-align: center;
+  list-style-type: none;
 }
 
 #footer-list li {
-    float: left;
+  float: left;
 }
 
 .social-link {
-    color: #D9A21B;
-    font-size: 35px;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+  color: #d9a21b;
+  font-size: 35px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .social-link:hover {
-    color: #654000
+  color: #654000;
 }
 
 /*--Media Queries */
 
 @media screen and (max-width: 480px) {
+  /*--Landing Page */
 
-/*--Landing Page */
+  .callout {
+    margin-top: 25px;
+    padding: 50px;
+  }
 
-    .callout {
-        margin-top: 25px;
-        padding: 50px;
-    }
+  #quotes {
+    height: 1070px;
+  }
 
-    #quotes {
-        height: 1070px;
-    }
-    
-    .left-quote, .right-quote {
-        margin-left: 50px;
-        width: 75%;
-        float: left;
-        padding: 30px 0;
-        display: block;
-        text-align: center;
-        font-size: 16px;
-    }
+  .left-quote,
+  .right-quote {
+    margin-left: 50px;
+    width: 75%;
+    float: left;
+    padding: 30px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+  }
 
-    .social-link {
-        margin-left: 7.5vw;
-        margin-right: 7.5vw;
-    }
+  .social-link {
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+  }
 
-    hr {
-        display: none;
-    }
+  hr {
+    display: none;
+  }
 
-/*--How it Works */
+  /*--How it Works */
 
-    .about {
-        width: 90%;
-        padding: 20px;
-        margin: 0 auto;
-        color: #fff;
-        font-size: smaller;
-        text-align: center;
-        display: block;
-    }
+  .about {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: smaller;
+    text-align: center;
+    display: block;
+  }
 
-    #hiw-list {
-        width: 90%;
-        margin: 0 auto;
-        padding: 20px;
-        color: #fff;
-        font-size: smaller;
-        background-color: rgba(217, 162, 27, 0.5);
-    }
+  #hiw-list {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    font-size: smaller;
+    background-color: rgba(217, 162, 27, 0.5);
+  }
 
-/*--WH40k */
+  /*--WH40k */
 
-    #fortyk {
-        height: 1000px;
-    }
+  #fortyk {
+    height: 1000px;
+  }
 
-    .faction-block {
-        width: 90%;
-        background-color: #D9A21B;
-        border-radius: 20px;
-        padding: 20px;
-        margin: 0 auto;
-        font-size: smaller;
-    }
+  .faction-block {
+    width: 90%;
+    background-color: #d9a21b;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: smaller;
+  }
 
-    .faction-block h3{
-        text-align: center;
-    }
+  .faction-block h3 {
+    text-align: center;
+  }
 
-    .faction-list li {
-        display: block;
-        text-align: center;
-        padding: 0px;
-    }
+  .faction-list li {
+    display: block;
+    text-align: center;
+    padding: 0px;
+  }
 
-    /*--Age of Sigmar */
+  /*--Age of Sigmar */
 
-    #aos {
-        padding-top: 30px;
-        padding-bottom: 56px;
-    }
+  #aos {
+    padding-top: 30px;
+    padding-bottom: 56px;
+  }
 
-    #faction-block-right {
-        width: 90%;
-        float: none;
-        margin: 0 auto;
+  #faction-block-right {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
 
-    }
+  /*--Sign Up */
 
-/*--Sign Up */
+  .form-heading {
+    text-align: center;
+    background-color: #d9a21b;
+    border: 2px solid #d9a21b;
+    border-radius: 20px;
+  }
 
-    .form-heading {
-        text-align: center;
-        background-color: #D9A21B;
-        border: 2px solid #D9A21B;
-        border-radius: 20px;
-    }
+  .form-heading-two {
+    text-align: center;
+  }
 
-    .form-heading-two {
-        text-align: center;
-    }
+  .personal-details {
+    width: 70%;
+    display: block;
+    padding-bottom: 10px;
+  }
 
-    .personal-details {
-        width: 70%;
-        display: block;
-        padding-bottom: 10px;
-    }
+  .personal-details input {
+    margin-left: 45px;
+  }
 
-    .personal-details input {
-        margin-left: 45px
-    }
-
-    .password {
-        width: 70%;
-    }
-
+  .password {
+    width: 70%;
+  }
 }
 
-@media screen and (max-width: 899px) and (min-width: 481px){
+@media screen and (max-width: 899px) and (min-width: 481px) {
+  /*--Landing Page--*/
 
-/*--Landing Page--*/
+  .callout {
+    margin-top: 25px;
+    padding: 50px;
+  }
 
-    .callout {
-        margin-top: 25px;
-        padding: 50px;
-    }
+  #quotes {
+    height: 1000px;
+    margin-bottom: 56px;
+  }
 
-    #quotes {
-        height: 1000px;
-        margin-bottom: 56px;
-    }
-    
-    .left-quote, .right-quote {
-        margin-left: 50px;
-        width: 75%;
-        float: left;
-        padding: 30px 0;
-        display: block;
-        text-align: center;
-        font-size: 16px;
-    }
+  .left-quote,
+  .right-quote {
+    margin-left: 50px;
+    width: 75%;
+    float: left;
+    padding: 30px 0;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+  }
 
-    .social-link {
-        margin-left: 7.5vw;
-        margin-right: 7.5vw;
-    }
+  .social-link {
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+  }
 
-    hr {
-        display: none;
-    }
+  hr {
+    display: none;
+  }
 
-    #photos {
-        column-count: 2;
-    }
+  #photos {
+    column-count: 2;
+  }
 
-    /*--How it Works */
+  /*--How it Works */
 
-    .about {
-        width: 90%;
-        padding: 20px;
-        margin: 0 auto;
-        color: #fff;
-        font-size: smaller;
-        text-align: center;
-        display: block;
-    }
+  .about {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: smaller;
+    text-align: center;
+    display: block;
+  }
 
-    #hiw-list {
-        width: 90%;
-        margin: 0 auto;
-        padding: 20px;
-        color: #fff;
-        font-size: smaller;
-    }
+  #hiw-list {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    font-size: smaller;
+  }
 
-    /*--WH40k */
+  /*--WH40k */
 
-    #fortyk {
-        height: 1000px;
-    }
+  #fortyk {
+    height: 1000px;
+  }
 
-    .faction-block {
-        width: 90%;
-        background-color: #D9A21B;
-        border-radius: 20px;
-        padding: 20px;
-        margin: 0 auto;
-        font-size: smaller;
-    }
+  .faction-block {
+    width: 90%;
+    background-color: #d9a21b;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: smaller;
+  }
 
-    .faction-block h3{
-        text-align: center;
-    }
+  .faction-block h3 {
+    text-align: center;
+  }
 
-    .faction-list li {
-        display: block;
-        text-align: center;
-        padding: 0px;
-    }
+  .faction-list li {
+    display: block;
+    text-align: center;
+    padding: 0px;
+  }
 
-    /*--Age of Sigmar */
+  /*--Age of Sigmar */
 
-    #aos {
-        padding-top: 30px;
-        padding-bottom: 56px;
-    }
+  #aos {
+    padding-top: 30px;
+    padding-bottom: 56px;
+  }
 
-    #faction-block-right {
-        width: 90%;
-        float: none;
-        margin: 0 auto;
-    }
+  #faction-block-right {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
 
-    /*--Sign Up */
+  /*--Sign Up */
 
-    .form-heading {
-        text-align: center;
-        }
-    
-    .personal-details {
-        width: 80%;
-        display: block;
-        padding-bottom: 10px;
-        }
-    
-    .personal-details input {
-            margin-left: 45px
-        }
-    
-    .password {
-            width: 80%;
-        }
-        
-    .form-label {
-            margin-left: 45px;
-        }
+  .form-heading {
+    text-align: center;
+  }
+
+  .personal-details {
+    width: 80%;
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .personal-details input {
+    margin-left: 45px;
+  }
+
+  .password {
+    width: 80%;
+  }
+
+  .form-label {
+    margin-left: 45px;
+  }
 }
