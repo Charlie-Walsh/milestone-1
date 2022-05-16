@@ -278,41 +278,49 @@ body {
 
 #sign-up-form {
   height: 100%;
+  width: 100%;
   padding-top: 75px;
   background-color: #bacef3;
   padding-bottom: 75px;
 }
 
 .form-heading {
-  margin: 45px;
+  text-align: center;
+  margin: 30px;
+  background-color: #d9a21b;
+  border: 2px solid #d9a21b;
+  border-radius: 20px;
 }
 
 .form-heading-two {
-  margin: 45px;
+  margin: 30px;
 }
 
 .personal-details {
-  height: 100px;
-  width: 40%;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .password {
-  height: 100px;
-  width: 30%;
-  margin: 45px;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .details {
-  width: 200px;
+  width: 50%;
   display: inline;
+  margin: 10px;
 }
 
 .universe-selection {
-  margin: 20px;
+  margin: 0 auto;
 }
 
 .faction-selection {
-  width: 200px;
+  width: 100%;
+
 }
 
 .form-submit {
@@ -357,7 +365,7 @@ footer {
 
 /*--Media Queries */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 577px) {
   /*--Landing Page */
 
   .callout {
@@ -462,21 +470,30 @@ footer {
   }
 
   .personal-details {
-    width: 70%;
     display: block;
-    padding-bottom: 10px;
   }
 
-  .personal-details input {
-    margin-left: 45px;
+  .details {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
   }
 
   .password {
-    width: 70%;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .universe-selection {
+    text-align: justify;
+    height: auto;
+    width: 80%;
+    display: block;
   }
 }
 
-@media screen and (max-width: 899px) and (min-width: 481px) {
+@media screen and (max-width: 769px) and (min-width: 578px) {
   /*--Landing Page--*/
 
   .callout {
@@ -575,23 +592,35 @@ footer {
 
   .form-heading {
     text-align: center;
+    background-color: #d9a21b;
+    border: 2px solid #d9a21b;
+    border-radius: 20px;
+  }
+
+  .form-heading-two {
+    text-align: center;
   }
 
   .personal-details {
-    width: 80%;
     display: block;
-    padding-bottom: 10px;
   }
 
-  .personal-details input {
-    margin-left: 45px;
+  .details {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
   }
 
   .password {
-    width: 80%;
+    height: auto;
+    width: 65%;
+    margin: 0 auto;
   }
 
-  .form-label {
-    margin-left: 45px;
+  .universe-selection {
+    text-align: justify;
+    height: auto;
+    width: 80%;
+    display: block;
   }
 }
