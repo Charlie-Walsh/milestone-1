@@ -411,16 +411,6 @@ footer {
 
   /*--Factions */
 
-  .faction-block {
-    width: 90%;
-    background-color: #d9a21b;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-    font-size: smaller;
-  }
-
   .faction-block h3 {
     text-align: center;
   }
@@ -429,6 +419,12 @@ footer {
     display: block;
     text-align: center;
     padding: 0px;
+  }
+
+  /*--Gallery */
+
+  #photos {
+    column-count: 2;
   }
 
   /*--Sign Up */
@@ -501,66 +497,31 @@ footer {
     display: none;
   }
 
-  #photos {
-    column-count: 2;
-  }
-
   /*--How it Works */
 
   .about {
     width: 90%;
     padding: 20px;
     margin: 0 auto;
+    margin-top: 10px;
     color: #fff;
     font-size: smaller;
     text-align: center;
     display: block;
   }
-
+  
   #hiw-list {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    color: #fff;
-    font-size: smaller;
-  }
-
-  /*--WH40k */
-
-  #fortyk {
-    height: 1000px;
-  }
-
-  .faction-block {
-    width: 90%;
-    background-color: #d9a21b;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 0 auto;
-    font-size: smaller;
-  }
-
-  .faction-block h3 {
-    text-align: center;
-  }
-
-  .faction-list li {
-    display: block;
-    text-align: center;
-    padding: 0px;
-  }
-
-  /*--Age of Sigmar */
-
-  #aos {
-    padding-top: 30px;
-    padding-bottom: 56px;
-  }
-
-  #faction-block-right {
     width: 90%;
     float: none;
     margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+  }
+
+  /*--Gallery */
+
+  #photos {
+    column-count: 2;
   }
 
   /*--Sign Up */
@@ -599,3 +560,47 @@ footer {
     display: block;
   }
 }
+
+@media screen and (max-width: 992px) and (min-width: 770px) {
+  /*--How it Works */
+
+  .about {
+    width: 70%;
+    padding: 20px;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    color: #fff;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #hiw-list {
+    width: 70%;
+    float: right;
+    margin-right: 10vw;
+    padding: 20px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  /*--How it Works */
+
+  .about {
+    width: 60%;
+    padding: 20px;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    color: #fff;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #hiw-list {
+    width: 60%;
+    float: right;
+    margin-right: 10vw;
+    padding: 20px;
+    color: #fff;
+  }  
+}
+
