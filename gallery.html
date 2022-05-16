@@ -1,77 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paint Box | Models Every Month</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/0b34ee418f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/0b34ee418f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
+    <article class="container-fluid">
+      <h1 style="display:none">Gallery</h1>
 
-<article class="container-fluid">
-<h1 style="display:none">Gallery</h1>
+      <!--Nav-->
 
-<!--Nav-->
+      <div class="row" id="nav">
+        <div class="col-12">
+          <nav class="navbar navbar-custom navbar-expand-sm bg-custom">
+            <a href="index.html" class="navbar-brand logo">Paint Box</a>
 
-<div class="row" id="nav">
-    <div class="col-12">
-        <nav class="navbar navbar-custom navbar-expand-sm bg-custom">
-            <a href="/" class="navbar-brand logo">Paint Box</a>
-
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars nav-icon"></i></span>
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              aria-label="menu button"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="fa-solid fa-bars nav-icon"></i
+              ></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="how-it-works.html">How it works</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="sign-up.html">Sign Up</a></li>
-                </ul>
+              <ul class="navbar-nav mr-auto">
+                <li class="active nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="how-it-works.html">How it works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sign-up.html">Sign Up</a>
+                </li>
+              </ul>
             </div>
-        </nav>
-    </div>
-</div>
+          </nav>
+        </div>
+      </div>
 
-<!--Gallery-->
+      <!--Gallery-->
 
-<section id="photos">
-    <h2 style="display:none">Gallery</h2>
-    <img src="assets/images/gallery/alon-levin-tac-marines.jpg" alt="tactical marines">
-    <img src="assets/images/gallery/drew-maclean-ork-buggies.jpg" alt="ork buggies">
-    <img src="assets/images/gallery/dylan-quinn-cw-nurgle.jpg" alt="warrior of nurgle">
-    <img src="assets/images/gallery/jay-adams-primaris-captain.jpg" alt="primaris captain">
-    <img src="assets/images/gallery/kenneth-taylor-marine-lineup.jpg" alt="space marines">
-    <img src="assets/images/gallery/lyle-rich-bladeguard-vet.jpg" alt="bladegaurd veteran">
-    <img src="assets/images/gallery/lyle-rich-de-troop.jpg" alt="drikhari reaver">
-    <img src="assets/images/gallery/lyle-rich-primaris-chaplain.jpg" alt="primaris chaplain">
-    <img src="assets/images/gallery/mark-kavanagh-chaos-cultist.jpg" alt="chaos cultist">
-    <img src="assets/images/gallery/orion-wood-apothacary.jpg" alt="primaris apothacary">
-    <img src="assets/images/gallery/orion-wood-techmarine.jpg" alt="techmarine">
-    <img src="assets/images/gallery/sandy-mcdonald-orks-vs-sm.jpg" alt="orks vs space marines">
-    <img src="assets/images/gallery/sandy-mcdonald-sw-assault-repulsor.jpg" alt="repulsor grav tank and assault marines">
-    <img src="assets/images/gallery/scott-mclellan-eldar-warlock.jpg" alt="eldar warlock">
-    <img src="assets/images/gallery/scott-mclellan-slayer.jpg" alt="dwarven slayer">
-    <img src="assets/images/gallery/scott-mclellan-stormcast-hammer-stave.jpg" alt="stormcast eternal">
-    <img src="assets/images/gallery/ziggy-mirkwood-tyrant-dread.jpg" alt="space marine dreadnaught and hive tyrant">
-</section>
+      <section id="photos">
+        <h2 style="display:none">Gallery</h2>
+        <img
+          src="assets/images/gallery/alon-levin-tac-marines.jpg"
+          alt="tactical marines"
+          aria-label="tactical marines"
+        />
+        <img
+          src="assets/images/gallery/drew-maclean-ork-buggies.jpg"
+          alt="ork buggies"
+          aria-label="ork buggies"
+        />
+        <img
+          src="assets/images/gallery/dylan-quinn-cw-nurgle.jpg"
+          alt="warrior of nurgle"
+          aria-label="warrior of nurgle"
+        />
+        <img
+          src="assets/images/gallery/jay-adams-primaris-captain.jpg"
+          alt="primaris captain"
+          aria-label="primaris captain"
+        />
+        <img
+          src="assets/images/gallery/kenneth-taylor-marine-lineup.jpg"
+          alt="space marines"
+          aria-label="space marines"
+        />
+        <img
+          src="assets/images/gallery/lyle-rich-bladeguard-vet.jpg"
+          alt="bladegaurd veteran"
+          aria-label="bladegaurd veteran"
+        />
+        <img
+          src="assets/images/gallery/lyle-rich-de-troop.jpg"
+          alt="drukhari reaver"
+          aria-label="drukhari reaver"
+        />
+        <img
+          src="assets/images/gallery/lyle-rich-primaris-chaplain.jpg"
+          alt="primaris chaplain"
+          aria-label="primaris chaplain"
+        />
+        <img
+          src="assets/images/gallery/mark-kavanagh-chaos-cultist.jpg"
+          alt="chaos cultist"
+          aria-label="chaos cultist"
+        />
+        <img
+          src="assets/images/gallery/orion-wood-apothacary.jpg"
+          alt="primaris apothacary"
+          aria-label="primaris apothacary"
+        />
+        <img
+          src="assets/images/gallery/orion-wood-techmarine.jpg"
+          alt="techmarine"
+          aria-label="techmarine"
+        />
+        <img
+          src="assets/images/gallery/sandy-mcdonald-orks-vs-sm.jpg"
+          alt="orks vs space marines"
+          aria-label="orks vs space marines"
+        />
+        <img
+          src="assets/images/gallery/sandy-mcdonald-sw-assault-repulsor.jpg"
+          alt="repulsor grav tank and assault marines"
+          aria-label="repulsor grav tank and assault marines"
+        />
+        <img
+          src="assets/images/gallery/scott-mclellan-eldar-warlock.jpg"
+          alt="eldar warlock"
+          aria-label="eldar warlock"
+        />
+        <img
+          src="assets/images/gallery/scott-mclellan-slayer.jpg"
+          alt="dwarven slayer"
+          aria-label="dwarven slayer"
+        />
+        <img
+          src="assets/images/gallery/scott-mclellan-stormcast-hammer-stave.jpg"
+          alt="stormcast eternal"
+          aria-label="stormcast eternal"
+        />
+        <img
+          src="assets/images/gallery/ziggy-mirkwood-tyrant-dread.jpg"
+          alt="space marine dreadnaught and hive tyrant"
+          aria-label="space marine dreadnaught and hive tyrant"
+        />
+      </section>
+    </article>
 
-</article>
-    
     <footer>
-            <ul id="footer-list">
-                <li><a href="https://www.facebook.com" class="social-link" id="facebook" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
-                <li><a href="https://www.twitter.com" class="social-link" id="twitter" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
-                <li><a href="https://www.instagram.com" class="social-link" id="instagram" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
-            </ul>
+      <ul id="footer-list">
+        <li>
+          <!--Fontawesome icon-->
+          <a
+            href="https://www.facebook.com"
+            class="social-link"
+            id="facebook"
+            target="_blank"
+            aria-label="facebook"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </li>
+        <li>
+          <!--Fontawesome icon-->
+          <a
+            href="https://www.twitter.com"
+            class="social-link"
+            id="twitter"
+            target="_blank"
+            aria-label="twitter"
+            ><i class="fa-brands fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <!--Fontawesome icon-->
+          <a
+            href="https://www.instagram.com"
+            class="social-link"
+            id="instagram"
+            target="_blank"
+            aria-label="instagram"
+            ><i class="fa-brands fa-instagram-square"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
