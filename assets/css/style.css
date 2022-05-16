@@ -93,6 +93,7 @@ body {
   margin-top: 50px;
   padding: 100px;
   color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #callout-text {
@@ -101,7 +102,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url(../images/hero-image.jpg);
+  background-image: url(../images/hero-image.webp);
   height: 600px;
   width: 100%;
   background-repeat: no-repeat;
@@ -185,7 +186,7 @@ body {
   margin-top: 56px;
 }
 
-#how-it-works h1 {
+#hiw-heading {
   padding-top: 30px;
   color: #fff;
 }
@@ -196,12 +197,13 @@ body {
 }
 
 .about {
-  width: 30%;
+  width: 50%;
   padding: 20px;
   margin-left: 17vw;
   margin-bottom: 5px;
   color: #fff;
   display: block;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #hiw-list {
@@ -215,7 +217,7 @@ body {
 /*--WH40k */
 
 #fortyk {
-  height: 800px;
+  height: auto;
   width: 100%;
   margin: 0;
   background-color: #bacef3;
@@ -249,6 +251,10 @@ body {
 /*--Age of Sigmar */
 
 #aos {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background-color: #bacef3;
   padding-bottom: 56px;
 }
 
