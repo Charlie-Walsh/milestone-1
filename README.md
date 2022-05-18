@@ -1,6 +1,7 @@
 <h1 align="center">Paint Box Website</h1>
 
 This is the main website for the Paint Box subscription service. It is designed to be responsive on a wide range of devices for maximum accessability for potential and existing customers.
+As a semi-active hobbyist myself
 
 ## User Experince (UX)
 
@@ -33,6 +34,21 @@ This is the main website for the Paint Box subscription service. It is designed 
 *  My hero image will be there to engage the customer and show the miniature hobby entails. There will also be a gallery of previous customers' minis from beginner and veteran painters.
 
 * Gallery images were kindly given permission to be used by members of a Facebook group I belong to called 40k for Grown Ups. I explained what they would be used for and those people willing to help added their images to the post.
+
+### Wireframes
+* Link Tree
+![Link Tree](/assets/wireframes/Link%20Tree.png)
+* Landing Page
+![Home 1](/assets/wireframes/Landing%20Page%201.png)
+![Home 2](/assets/wireframes/Landing%20Page%202.png)
+* How it Works
+![How it Works](/assets/wireframes/How%20it%20Works.png)
+* Gallery
+![Gallery](/assets/wireframes/Gallery.png)
+* Sign Up
+![Sign Up 1](/assets/wireframes/Sign%20Up.png)
+![Sign Up 2](/assets/wireframes/Sign%20Up%202.png)
+![Sign Up 2](/assets/wireframes/Sign%20Up%203.png)
 
 ## Code
 
