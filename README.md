@@ -14,13 +14,20 @@
     * I want to be able to easily navigate to more information and/or social links to judge how trustworthy the bussiness is
     * I would like to be able to see feedback from previous customers to see if the service is relevant to my needs and if those needs have been met by others before me.
 
+![landing-page](assets/Screenshots/landing-page.png)
+![gallery](assets/Screenshots/gallery.png)
+
 * ### Returning Visitor Goals
     * Returning to the site I would like to be able to find more information on the product I have purchased/planning to purchase.
     * I would like to be able to find contact information for the company to provide feedback or report any issues/concerns I may have.
+
+![social-links](assets/Screenshots/social-links.png)
     
 * ### Frequent Visitor Goals
-    * Frequent visitation shouldn't be an issue. Once subscribed the customer should not have to revisit frequently to enjoy their product. However this could be addressed as the company grows by adding in more and more content like painting tutorials, blogs, FAQs and such. Possibly a community page and forums for peer to peer critiques etc.
-    * The goal of a frquent visitor would ideally be for word of mouth promotion, showing freinds and family how easy it is to use for a top notch product.
+    * Frequent visitation shouldn't be an issue. Once subscribed the customer should not have to revisit frequently to enjoy their product. Although I do have some ideas regarding this that can be found later in this file.
+    * The goal of a frequent visitor would ideally be for word of mouth promotion, showing freinds and family how easy it is to get started.
+
+![sign-up](assets/Screenshots/sign-up.png)
 
 ## Design
 
@@ -83,7 +90,7 @@
 * All code has been validated in the respective W3C validators.
 
 
-## Bugs
+## Known Bugs
 
 * The main bug I have identified is the menu icon not retracting when clicked again to close.
 
@@ -115,5 +122,13 @@
 6. Type "git clone" and paste the url you copied after it.
 7. Press enter and your clone will be created.
 
+## Future Development
 
+<p>In order to imporove the revistability of the site, as the company grows it would be good to have an area for the community to grow and share their work and ideas. A few ideas I have for expansion are as follows:</p>
+
+* Forum - A place where subcribers can communicate and share their experience. Newcomers could ask veterans for advice on certain painting techniques, post guides on how to achieve a certain effect or share what bits they have used for a model conversion.
+
+* Painting Tutorials - Maybe using a higher tier for membership would give you access to in house painting tutorials and guides in video format. Although similar things can be found on youtube so the quality would have to be very high in order to warrant an extra cost. This could be included with a regular membership as an extra marketing device.
+
+* FAQs - A place where general questions are answered by the company covering basic painting techniques, equipment and more detailed explanations of the service.
 
