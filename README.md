@@ -87,6 +87,33 @@
 
 * The main bug i have identified is the menu icon not retracting when clicked again to close.
 
+## Deployment
+
+### Deploying the Website
+
+1. Start by logging in to GitHub and finding [my repository](https://github.com/Charlie-Walsh/milestone-1).
+2. Under **Environments** on the right hand side click **github-pages**.
+3. Next to the top item on the deployment history list click the **View Deployment** button. This will open the page in a seperate tab for you to view.
+
+### Forking the Repository
+
+<p>By forking the repository you will create a copy to your own Github account. Here you will be able to view or edit code without changing the original repository.</p>
+
+1. Start by logging in to GitHub and finding [my repository](https://github.com/Charlie-Walsh/milestone-1).
+2. In the top right hand corner of the window you will find the fork button.
+3. You should now have your own copy of the repository.
+
+### Cloning the Repository
+
+<p>You can also clone the repository to use locally.</p>
+
+1. Start by logging in to GitHub and finding [my repository](https://github.com/Charlie-Walsh/milestone-1).
+2. To the left of the green Gitpod button is the Code dropdown button.
+3. To clone using HTTPS copy the link under HTTPS.
+4. Open Git Bash.
+5. Make sure you change the working directory to the location you want the cloned directory to go.
+6. Type "git clone" and paste the url you copied after it.
+7. Press enter and your clone will be created.
 
 
 
