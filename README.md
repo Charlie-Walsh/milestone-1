@@ -55,7 +55,16 @@
 
 ## Code
 
-* Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This allowed me to style the page in the way I wanted and not be limited to bootstraps default colours.
+### Libraries
+
+* Bootstrap 5.1.3
+* Popper 2.10.2
+* Google Fonts
+* Font Awesome
+
+### Tutorials
+
+* Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This influenced my css to style the page in the way I wanted and not be limited to bootstraps default colours.
 
 ## Testing
 
