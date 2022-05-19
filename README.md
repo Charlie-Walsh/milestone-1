@@ -1,10 +1,15 @@
 <h1 align="center">Paint Box Website</h1>
 
 <p>This is the main website for the Paint Box subscription service. It is designed to be responsive on a wide range of devices for maximum accessability for potential and existing customers.</p>
+
+## The Target Audience
+
 <p>As a semi-active hobbyist myself I decided on this service to make a website for because it is something that I would be interested in purchasing. Typically there are three different kinds of people that make up the community in terms of how they consume the product. We will be marketing towards two of these.</p> 
 <p>The painters - These guys are our primary target audience. They collect, paint and kitbash models to their hearts content. The variety of models that this subscription service provides would be very appealing and the spare parts can be added to the bits box for future projects.</p>
 <p>The casual player - Although normally casual players tend to focus on one or two factions in order to have a functioning force to deploy on the battlefield, most do build and paint their own models. My service will give them the opportunity to branch out and develop their skills by painting different models to what they are used to. At the same time they can also opt to recieve the factions they already own to expand their collection.</p>
 <p>The third is not our target audience and make up a small minority of consumers and either buy or trade models, even full armies, already painted to keep up with the ever shifting meta of the gaming side of the hobby.</p>
+
+<p>The real value of this service is what it provides for our painters and casuals, people like myself that don't necessarily have the time to indulge in painting an army to field in the space of a month or two. It offers a small project that you can take your time with and enjoy, giving an incentive to build and paint without being overwhelmed or buried under a mountain of grey plastic. The random aspect of the service removes the decision making process of what to buy next and broadens the horizons a little</p>
 
 ## User Experince (UX)
 
