@@ -64,7 +64,7 @@
 
 ### Tutorials
 
-* Needed help changing the boostrap navbar colour which I found on [https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/]. This influenced my css to style the page in the way I wanted and not be limited to bootstraps default colours.
+* I needed help changing the boostrap navbar colour which I found on [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/). This influenced my css to style the page in the way I wanted and not be limited to bootstraps default colours.
 
 ## Testing
 
@@ -85,7 +85,7 @@
 
 ## Bugs
 
-* The main bug i have identified is the menu icon not retracting when clicked again to close.
+* The main bug I have identified is the menu icon not retracting when clicked again to close.
 
 ## Deployment
 
