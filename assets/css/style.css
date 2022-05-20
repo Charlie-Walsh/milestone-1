@@ -40,7 +40,6 @@ body {
   width: 100%;
 }
 
-/*--Geeks for Geeks */
 .navbar-custom {
   width: 100%;
   top: 0;
@@ -48,6 +47,7 @@ body {
   margin: 0;
 }
 
+/*--Geeks for Geeks */
 .bg-custom {
   background-color: #1a4e87;
 }
