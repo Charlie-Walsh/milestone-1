@@ -52,18 +52,18 @@
 
 ### Wireframes
 * Link Tree
-![Link Tree](/assets/wireframes/Link%20Tree.png)
+![Link Tree](/assets/wireframes/link-tree.png)
 * Landing Page
-![Home 1](/assets/wireframes/Landing%20Page%201.png)
-![Home 2](/assets/wireframes/Landing%20Page%202.png)
+![Home 1](/assets/wireframes/landing-page-1.png)
+![Home 2](/assets/wireframes/landing-page-2.png)
 * How it Works
-![How it Works](/assets/wireframes/How%20it%20Works.png)
+![How it Works](/assets/wireframes/how-it-works.png)
 * Gallery
-![Gallery](/assets/wireframes/Gallery.png)
+![Gallery](/assets/wireframes/gallery.png)
 * Sign Up
-![Sign Up 1](/assets/wireframes/Sign%20Up.png)
-![Sign Up 2](/assets/wireframes/Sign%20Up%202.png)
-![Sign Up 2](/assets/wireframes/Sign%20Up%203.png)
+![Sign Up 1](/assets/wireframes/sign-up-1.png)
+![Sign Up 2](/assets/wireframes/sign-up-2.png)
+![Sign Up 2](/assets/wireframes/sign-up-3.png)
 
 ## Code
 
