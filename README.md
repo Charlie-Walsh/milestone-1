@@ -9,7 +9,9 @@
 <p>The casual player - Although normally casual players tend to focus on one or two factions in order to have a functioning force to deploy on the battlefield, most do build and paint their own models. My service will give them the opportunity to branch out and develop their skills by painting different models to what they are used to. At the same time they can also opt to recieve the factions they already own to expand their collection.</p>
 <p>The third is not our target audience and make up a small minority of consumers and either buy or trade models, even full armies, already painted to keep up with the ever shifting meta of the gaming side of the hobby.</p>
 
-<p>The real value of this service is what it provides for our painters and casuals, people like myself that don't necessarily have the time to indulge in painting an army to field in the space of a month or two. It offers a small project that you can take your time with and enjoy, giving an incentive to build and paint without being overwhelmed or buried under a mountain of grey plastic. The random aspect of the service removes the decision making process of what to buy next and broadens the horizons a little</p>
+<p>Outside of the magazine series that Games Workshop themselves released (Warhammer 40,000: Conquest), something I subscribed to myself for a time, I am unaware of any other company offering a similar service. The magazine series was aimed at newcomers and allowed you to slowly build two armies with terrain and rules, however this was a weekly installment with one or two sprues attatched and you were limited to the two armies chosen for you. Although yes, this did bring in some new blood to the hobby most of the people in the various groups I belong to on social media that subscribed were buying it to flesh out their exsiting armies or add to their bits boxes.</p>
+
+<p>The real value of this service is what it provides for our painters and casuals, people like myself that don't necessarily have the time to indulge in painting an army to field in the space of a month or two. It offers a small project that you can take your time with and enjoy, giving an incentive to build and paint without being overwhelmed or buried under a mountain of grey plastic. The random aspect of the service removes the decision making process of what to buy next and offers something new that they might not have considered purchasing before. Variety is the spice of life as they say.</p> 
 
 ## User Experince (UX)
 
@@ -85,15 +87,6 @@
 * Had unwanted white bars throughout styling which turned out to be padding on the container-fluid class preset and has since been removed in css.
 
 * Colour pallette wasn't popping as much as I would like in practice. I have kept the blue but have gone with a golden yellow to help important things stand out. The grey wasn't contrasting enough with the hero image so have gone to white to ensure text can be read.
-
-* Nav bar collaspe isn't functioning correctly. The menu will not retract when the button is clicked a second time. However clicking home again resets the button and typically users will navigate away from the home page when using the menu.
-
-* I have been testing frquently in port 8000 and using Google's developer tools to gauage responsiveness over mobile, tablet and desktop sizes.
-
-* Links were tested after deployment. One was linked to the wrong html file. That has been ammended and now links to the correct file.
-
-* All code has been validated in the respective W3C validators.
-
 
 ## Known Bugs
 
