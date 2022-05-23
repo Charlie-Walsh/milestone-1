@@ -519,6 +519,12 @@ footer {
     color: #fff;
   }
 
+  /*--Factions */
+
+  .faction-block h3 {
+    text-align: center;
+  }
+  
   /*--Gallery */
 
   #photos {
