@@ -53,18 +53,30 @@
 * Gallery images were kindly given permission to be used by members of a Facebook group I belong to called 40k for Grown Ups. I explained what they would be used for and those people willing to help added their images to the post.
 
 ### Wireframes
-* Link Tree
+Link Tree
+
 ![Link Tree](/assets/wireframes/link-tree.png)
-* Landing Page
+
+Landing Page
+
 ![Home 1](/assets/wireframes/landing-page-1.png)
+
 ![Home 2](/assets/wireframes/landing-page-2.png)
-* How it Works
+
+How it Works
+
 ![How it Works](/assets/wireframes/how-it-works.png)
-* Gallery
+
+Gallery
+
 ![Gallery](/assets/wireframes/gallery.png)
-* Sign Up
+
+Sign Up
+
 ![Sign Up 1](/assets/wireframes/sign-up-1.png)
+
 ![Sign Up 2](/assets/wireframes/sign-up-2.png)
+
 ![Sign Up 2](/assets/wireframes/sign-up-3.png)
 
 ## Code
@@ -100,7 +112,7 @@
 |                | <992px                                                                            | Use inspect tools to test responsiveness at this breakpoint.   | Content over hero image overflowing and pushing content further down the page.                                                                      | Widened width of both elements to fit over hero image. Also gives a nice transition to the <576px coming together.                                                                                                                                      |
 |                | <1200px                                                                           | Use inspect tools to test responsiveness at this breakpoint    | Small white edge between hero image and content. Caused by margin on .about class. 
 
-<p>When testing responsiveness I found the easiest way to work was from the bottom up, as the smallest viewport would require the most change. Then I was able to use that as a blueprint for the inbetween sizes and cherry pick what worked well from the extremities.</p>
+<p>When testing responsiveness I found the easiest way to work was from the bottom up, as the smallest viewport would require the most change. Then I was able to use that as a blueprint for the inbetween sizes and cherry pick what worked well from the extremities. The full list of changes can be seen in the media queries section of the style.css file.</p>
 
 ## Known Bugs
 
